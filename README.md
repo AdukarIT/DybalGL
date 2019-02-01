@@ -5,5 +5,5 @@
 3. https://www.google.com/
 
 ### Задание 2
-1. https://jsfiddle.net/Glebjs/wyb5khtm/3/
+1. https://jsfiddle.net/Glebjs/wyb5khtm/12/
 2. https://jsfiddle.net/Glebjs/wyb5khtm/9/
