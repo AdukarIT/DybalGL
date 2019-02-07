@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Форма отзыва на товар</title>
+</head>
+<body>
+
+<form action="#" method="post" name="UserFeedback">
+
+
+	<label for="name">Имя: </label>
+	<input type="text" name="name" id="name" required>
+	<br>
+
+	<label for="email">E-mail: </label>
+	<input type="email" name="email" id="email" required>
+	<br>
+
+	<label for="mark">Ваша оценка: </label>
+	<select name="mark" id="mark" required="">
+		<option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+		<option value="4">&#9733;&#9733;&#9733;&#9733;</option>
+		<option value="3">&#9733;&#9733;&#9733;</option>
+		<option value="2">&#9733;&#9733;</option>
+		<option value="1">&#9733;</option>
+	</select>
+	<br>
+
+	<label for="feedback">Напишите отзыв: </label>
+	<textarea name="feedback" id="feedback"></textarea>
+	<br>
+
+	<input type="submit" name="submit">
+</form>
+</body>
+</html>
