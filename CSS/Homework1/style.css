@@ -1,0 +1,42 @@
+body{
+	font-family: "Times New Roman", Arial;
+	font-size: 14pt;
+}
+
+.bel{
+	margin-top: 3cm;
+	margin-bottom: 10cm;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 0.5;
+}
+
+.referat{
+	font-size: 1.4em;
+	text-align: center;
+	line-height: 0.5;
+	margin-bottom: 5cm;
+}
+
+.ref2{
+	font-weight: bold;
+}
+
+.asp{
+	line-height: 0.3em;
+	text-align: left;
+	font-size: 1.3em;
+	margin-left: 17cm;
+}
+
+.mag{
+	text-decoration: underline solid;
+}
+
+.msk{
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: 4cm;
+	margin-bottom: 4cm;
+}
