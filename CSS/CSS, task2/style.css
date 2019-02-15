@@ -1,0 +1,29 @@
+.div1{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+.cls{
+	display: inline-block;
+	margin: 10px 0 0 5px;
+	width: 174px;
+}
+
+.btn{
+	background-color: white;
+	margin-left: 3cm;
+	border: 1px solid;
+	border-color: gray;
+	border-radius: 5px;
+}
+
+.img{
+	display: inline-block;
+	width: 15px;
+	vertical-align: top;
+	padding: 3px;
+}
