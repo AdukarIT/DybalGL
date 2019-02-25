@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>TECHSHOP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>TECHSHOP</h1>
+
+	<div class="menu">
+		<div class="menu__submenu">
+			<p>Бытовая техника</p>
+
+			<div class="menu__submenu-item">
+			<ul>
+				<li>Стиральные машины</li>
+				<li>Пылесосы</li>
+				<li>Швейные, вышивальные машины</li>
+				<li>Утюги</li>
+				<li>Электровеники</li>
+				<li>Сушилки для обуви</li>
+			</ul>
+			</div>
+		</div>
+
+		<div class="menu__submenu">
+			<p>Техника для кухни</p>
+
+			<div class="menu__submenu-item">
+			<ul>
+				<li>Холодильники</li>
+				<li>Кухонные плиты</li>
+				<li>Морозильники</li>
+				<li>Настольные плиты</li>
+				<li>Ростеры, мини-печи</li>
+				<li>Вытяжки</li>
+				<li>Микроволновые печи</li>
+			</ul>
+			</div>
+		</div>
+
+		<div class="menu__submenu">
+			<p>Компьютерная техника</p>
+
+			<div class="menu__submenu-item">
+			<ul>
+				<li>Ноутбуки</li>
+				<li>Планшеты</li>
+				<li>Компьютеры, моноблоки</li>
+				<li>Игровые приставки</li>
+				<li>Серверное оборудование</li>
+			</ul>
+			</div>
+		</div>
+
+		<div class="menu__submenu">
+			<p>Корзина</p>
+		</div>
+	</div>
+
+<form name="MakeOrder" action="#" method="post" class="formstyle">
+
+	<label for="lastname">Фамилия</label>
+	<input type="text" name="lastname" id="lastname" class="makespacing" required>
+
+	<label for="firstname">Имя</label>
+	<input type="text" name="lastname" id="firstname" class="makespacing" required>
+
+	<label for="phone">Телефон</label>
+	<input type="text" name="phone" id="phone" class="makespacing" required>
+
+	<label for="email">E-mail:</label>
+	<input type="email" name="email" id="email" class="makespacing" required>
+
+	<br>
+	<label for="delivery" class="makespacing">Выберите способ доставки:</label>
+	
+	<input type="checkbox" name="delivery" id="delivery" required>Самовывоз со склада по адресу 
+		<label for="delivery" class="address__pickup">Проспект независимости 98</label> 
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.2587614431854!2d27.627975915860482!3d53.92714658010487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcee2457f0057%3A0x57eb2e813eecc24b!2z0L_RgNC-0YHQv9C10LrRgiDQndC10LfQsNCy0LjRgdC40LzQvtGB0YLQuCA5OCwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1551090226609" width="500" height="300" style="border:0"></iframe>
+			</div>
+	<br>
+
+	<input type="checkbox" id="courier" name="delivery" required><label for="courier">Курьером по Минску</label>
+		<div class="address__visible">
+			<input type="text" name="address" id="address" placeholder="Адрес доставки">
+		</div>
+	<br>
+	<br>
+
+	<label for="comment" class="makespacing">Комментарий к заказу</label>
+	<textarea rows="5" cols="45"  name="comment" id="comment" class="makespacing" required></textarea>
+	<br>
+
+	<input type="checkbox" name="conditions" required>Я прочитал и согласен с <a href="#">условиями доставки</a>
+
+	<input type="submit" name="submit" class="makespacing"  value="Отправить">
+
+	<footer>
+		<p>Время работы магазина: 10-20</p>
+		<p>Адрес офиса: Проспект Независимости 98</p>
+		<p>Телефон: +375 (99) 999-99-99</p>
+		<p>Skype: techshopbel</p>
+	</footer>
+</form>
+</body>
+</html>

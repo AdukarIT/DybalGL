@@ -1,0 +1,90 @@
+h1 {
+	font-weight: bold;
+	text-align: center;
+	color: rgb(100,0,50);
+	position: relative;
+	font-family: Courier, Arial;
+	font-size: 50px;
+}
+
+p {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+	font-family: Courier, Arial;
+}
+
+ul {
+	display: none;
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 5px;
+	font-family: Courier, Arial;
+	font-size: 15px;
+}
+
+.menu__submenu {
+	display: inline-block;
+	position: relative;
+	left: 120px;
+	padding-right: 75px;
+	color: darkorange;
+	font-size: 15px;
+}
+
+li:nth-child(even) {
+	background-color: black;
+}
+
+.menu__submenu:hover ul {
+	display: inline-block;
+}
+
+textarea {
+	resize: none
+}
+
+.formstyle {
+	margin-top: 75px;
+	padding: 5px;
+	font-family: Courier, Arial;
+}
+
+.makespacing {
+	display: block;
+}
+
+.map {
+	display: none;
+}
+
+#delivery:checked ~ .map {
+	display: block;
+}
+
+.address__pickup {
+	text-decoration-line: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.address__visible {
+	display: none;
+}
+
+#courier:checked ~ .address__visible{
+	display: block;
+}
+
+footer {
+	position: fixed;
+	left: 840px;
+	top: 490px;
+	border: 4px dashed green;
+	background-color: yellow;
+	width: 514px;
+	font-family: sans-serif;
+	margin-top: 50px;
+	font-size: 15px;
+}
