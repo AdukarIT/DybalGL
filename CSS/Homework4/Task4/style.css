@@ -1,0 +1,27 @@
+body {
+	font-family: Courier;
+	font-size: 25px;
+}
+
+header {
+	display: inline-block;
+}
+
+img {
+	width: 35%;
+}
+
+input {
+	border-radius: 4px;
+}
+
+p {
+	position: absolute;
+	left: 650px;
+	top: 175px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+}

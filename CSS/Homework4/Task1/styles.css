@@ -1,0 +1,11 @@
+.beach {
+	width: 98.5%;
+	height: 97%;
+	box-sizing: border-box;
+	position: absolute;
+	background-clip: content-box;
+	background-image: url(pictures/sun.png), url(pictures/sea.jpg), url(pictures/sky.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: top right, bottom left, top left;
+	background-size: 15%, 100%, cover;
+}

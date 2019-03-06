@@ -1,0 +1,35 @@
+@font-face {
+      font-family: 'fontello';
+      src: url('fontello/font/fontello.eot?34907624');
+      src: url('fontello/font/fontello.eot?34907624#iefix') format('embedded-opentype'),
+           url('fontello/font/fontello.woff?34907624') format('woff'),
+           url('fontello/font/fontello.ttf?34907624') format('truetype'),
+           url('fontello/font/fontello.svg?34907624#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+.icon{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    speak: none;
+    color: grey;
+}
+
+.icon:hover {
+	color: blue;
+}
+
+#like {
+	display: none;
+}
+
+#like:checked + .icon {
+	color: red;
+}
+
+#like:checked + .icon:hover {
+	color: rgba(255,0,0,0.3);
+}
