@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 25px;
+}
+
+header > div {
+    display: flex;
+    width: 350px;
+    height: 98px;
+}   
+
+li {
+    font-size: 18px;
+}
+
+.background-picture {
+    background-image: url(pictures/background.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.adukar__logo {
+    display: flex;
+    background-image: url(pictures/adukar__logo.png);
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.main-info > ul, .main-info {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info > ul > li {
+    padding-right: 40px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.social > p {
+    padding-right: 25px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.social > ul, li, .social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.vk-logo {
+    background-image: url(pictures/vk-logo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 35px;
+    height: 35px;
+}
+
+.instagram-logo {
+    background-image: url(pictures/instagram-logo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 35px;
+    height: 35px;
+}
+
+.twitter-logo {
+    background-image: url(pictures/twitter-logo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 35px;
+    height: 35px;
+}
+
+.express-courses {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.be-ready {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 18px;
+    padding-bottom: 50px;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    justify-content: space-around;
+    border: 1px solid green;
+}
+
+.results > div {
+    width: 290px;
+    height: 90px;
+    border: 1px solid black;
+}
+
+div > span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+div > img {
+    float: left;
+    background-size: 75px 115px;
+    width: 50px;
+    height: 65px;
+}
+
+.start-lessons {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    font-size: 23px;
+}
+
+.signup {
+    display: flex;
+    border-radius: 6;
+    left: 250px;
+    justify-content: center;
+    background-color: rgba(200,0,0,8);
+}

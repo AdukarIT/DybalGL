@@ -1,6 +1,7 @@
-﻿body {
-	padding-left: 10px;
-	padding-right: 10px;
+﻿* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 header {
@@ -29,7 +30,7 @@ p {
 }
 
 footer {
-	background-color: red;
+	background-color: #333;
 	font-family: courier;
 	display: block;
 }
@@ -71,4 +72,8 @@ ul {
 	font-size: 25px;
 	padding: 0;
 	margin: 0;
+}
+
+.inline {
+	display: inline-block;
 }
