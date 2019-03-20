@@ -26,9 +26,11 @@ li {
 }
 
 .background-picture {
-    background-image: url(pictures/background.jpg);
+    background: url(pictures/background.jpg);
+    box-shadow: inset 500px 500px 500px rgba(0,0,0,0.6);
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center center;
+    background-size: cover;
 }
 
 .adukar__logo {
@@ -52,7 +54,7 @@ li {
 }
 
 .main-info > ul > li {
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 .social {
@@ -64,7 +66,7 @@ li {
 }
 
 .social > p {
-    padding-right: 25px;
+    margin-right: 25px;
     font-weight: 300;
     font-size: 18px;
 }
@@ -87,6 +89,7 @@ li {
     background-image: url(pictures/instagram-logo.png);
     background-repeat: no-repeat;
     background-position: top right;
+    margin: 0px 10px;
     width: 35px;
     height: 35px;
 }
@@ -120,13 +123,12 @@ li {
     flex-direction: row;
     margin-right: 50px;
     justify-content: space-around;
-    border: 1px solid green;
+    margin-bottom: 50px;
 }
 
 .results > div {
-    width: 290px;
+    width: 315px;
     height: 90px;
-    border: 1px solid black;
 }
 
 div > span {
@@ -137,8 +139,8 @@ div > span {
 
 div > img {
     float: left;
-    background-size: 75px 115px;
-    width: 50px;
+    background-size: 90px 115px;
+    width: 70px;
     height: 65px;
 }
 
@@ -147,12 +149,39 @@ div > img {
     justify-content: center;
     margin-top: 75px;
     font-size: 23px;
+    margin-bottom: 25px;
 }
 
 .signup {
-    display: flex;
-    border-radius: 6;
-    left: 250px;
-    justify-content: center;
-    background-color: rgba(200,0,0,8);
+    position: relative;
+    background-color: #e55;
+    left: 535px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.signup:hover {
+    border-color: #e55;
+    border: 1px solid;
+    padding: 9px 9px;
+    color: #e55;
+    background-color: white;
+    cursor: pointer;
+}
+
+.main-info > ul > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.social > p {
+    cursor: pointer;
+}
+
+ul > li:hover {
+    cursor: pointer;
 }
