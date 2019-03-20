@@ -1,0 +1,232 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+	color: #000;
+    direction: ltr;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    line-height: 1.154;
+    font-weight: 400;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	background: #4a76a8;
+	height: 42px;
+	border-bottom: 1px solid #4872a3;
+}
+
+.header {
+	width: 61px;
+	height: 42px;
+}
+
+.icon {
+	width: 34px;
+	height: 42px;
+}
+
+.header-info {
+	display: flex;
+	width: 960px;
+	margin: 0 auto;
+	font-size: 12.5px;
+	padding: 0 15px;
+}
+
+.content {
+	display: inline-block;
+	width: 165px;
+}
+
+.vk-logo-img {
+	background: url(img/vk-logo.png) no-repeat 50% / contain;
+	background-size: 32px;
+}
+
+.search-area {
+	float: right;
+	width: 230px;
+}
+
+.search {
+	border: 0;
+    padding: 6px 6px 6px 19px;
+    margin: 7px 0;
+    height: 28px;
+    line-height: 16px;
+    width: 230px;
+    border-radius: 14px;
+    transition: background-color 0.05s, color 0.05s;
+    background: url(img/search.png) no-repeat;
+    padding-left: 19px;
+    border-left: 8px solid transparent;
+    background-position: left 6px;
+    background-color: #224b7a;
+}
+
+.search:focus {
+	background-color: white;
+}
+
+.notification-icon {
+	background: url(img/bell.png) no-repeat center;
+	background-size: 30px;
+	margin: 0px 30px 5px 25px;
+	padding: 10px;
+}
+
+.notification-icon:hover {
+	background-color: #3d6898;
+}
+
+.music-area {
+	display: inline-block;
+	width: 406.52px;
+	height: 42px;
+}
+.music-icon {
+	display: inline-block;
+	background: url(img/music.png) no-repeat center;
+	background-size: 30px;
+    margin: 0px 0px 5px 25px;
+    padding: 5px 20px;
+}
+
+.music-icon:hover {
+	background-color: #3d6898;
+}
+
+.music-list {
+	display: inline-block;
+	background: url(img/music-list.png) no-repeat center;
+	background-size: 30px;
+	margin: 0px 0px 5px 5px;
+    padding: 5px 20px;
+}
+
+.music-list:hover {
+	background-color: #3d6898;
+}
+
+.profile-area {
+	display: flex;
+	width: 97.48px;
+}
+
+.profile-area:hover {
+	background-color: #3d6898;
+}
+
+.profile-name {
+	width: 36.48px;
+	padding-right: 35px;
+	padding-left: 10px;
+    vertical-align: top;
+    white-space: nowrap;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.profile-icon {
+	background: url(img/profile.jpg) no-repeat center;
+	background-size: 50px;
+	margin-left: 10px;
+    vertical-align: top;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    margin: 7px 0;
+    border: 0;
+    color: transparent;
+    white-space: nowrap;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+.arrow-down {
+	background: url(img/arrow.png) no-repeat;
+	background-size: 8px;
+	width: 8px;
+	height: 10px;
+	margin: 18px 1px 0 7px;
+    white-space: nowrap;
+    line-height: 42px;
+    vertical-align: top;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menu {
+	padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    font-size: 13px;
+    line-height: 1.154;
+    font-weight: 400;
+    color: #285473;
+}
+
+.navigation {
+	position: relative;
+	display: block;
+    top: 0!important;
+    width: 149px;
+    z-index: 11;
+}
+
+.feed {
+	display: block;
+	width: 550px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.options {
+	display: inline-block;
+	width: 230px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.nav-bar {
+	display: inline-block;
+	text-align: left;
+	width: 149px;
+	height: 477px;
+	margin-top: 42px;
+	padding: 15px 0 10px;
+}
+
+.nav-bar > ol {
+	list-style: none;
+	margin: 0 0 10px;
+		width: 149px;
+	height: 477px;
+    padding: 0;
+}
+
+li {
+	display: block;
+	width: 157px;
+	height: 28px;
+	margin-left: -8px;
+}
+
+.navigation-icon {
+	width: 35px;
+	height: 25px;
+}
+
+.my-page-icon {
+	background: url(img/my_page.svg) no-repeat center;
+	width: 50px;
+	height: 50px;
+}
