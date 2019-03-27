@@ -2,23 +2,25 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+	font-family: Roboto,Open Sans,Helvetica Neue,sans-serif;
 	color: #000;
     direction: ltr;
     font-size: 13px;
-    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
     line-height: 1.154;
     font-weight: 400;
 }
 
 header {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	background: #4a76a8;
 	height: 42px;
 	border-bottom: 1px solid #4872a3;
 }
 
+body {
+	background-color: #f0f2f5;
+}
 .header {
 	width: 61px;
 	height: 42px;
@@ -166,8 +168,7 @@ header {
 .menu {
 	padding: 0 15px;
     margin: 0 auto;
-    position: relative;
-    width: 960px;
+    width: 990px;
     font-size: 13px;
     line-height: 1.154;
     font-weight: 400;
@@ -175,25 +176,20 @@ header {
 }
 
 .navigation {
-	position: relative;
-	display: block;
-    top: 0!important;
+	display: inline-block;
+	vertical-align: top;
     width: 149px;
-    z-index: 11;
+    height: 425px;
 }
 
 .feed {
-	display: block;
-	width: 550px;
-	height: 500px;
-	margin: 0 auto;
-}
-
-.options {
 	display: inline-block;
-	width: 230px;
-	height: 500px;
+	background-color: white;
+	width: 550px;
+	height: 480px;
+	line-height: 14px;
 	margin: 0 auto;
+	margin: 15px 15px 0px 15px;
 }
 
 .nav-bar {
@@ -201,32 +197,349 @@ header {
 	text-align: left;
 	width: 149px;
 	height: 477px;
-	margin-top: 42px;
 	padding: 15px 0 10px;
 }
 
 .nav-bar > ol {
-	list-style: none;
+    width: 149px;
+    height: 477px;
 	margin: 0 0 10px;
-		width: 149px;
-	height: 477px;
     padding: 0;
 }
 
+ol {
+    display: block;
+    list-style-type: decimal;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
 li {
+	display: list-item;
+	width: 157px;
+	height: 28px;
+	list-style-type: none;
+}
+
+a {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left_row {
+	color: #285473;
+	width: 157px;
+	height: 28px;
+    border: 0;
+    display: block;
+    white-space: nowrap;
+}
+
+.left_settings {
+    float: left;
+    position: relative;
+    width: 22px;
+    height: 28px;
+    margin: -28px 0 0 -22px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: 4;
+}
+
+.left_settings_inner {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(img/common.png) no-repeat 0 -60px;
+}
+
+.left_fixer {
 	display: block;
 	width: 157px;
 	height: 28px;
-	margin-left: -8px;
 }
 
-.navigation-icon {
+.left_icon {
+	display: block;
+	float: left;
+	background-position: 7px 6px;
 	width: 35px;
-	height: 25px;
+    height: 25px;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
 }
 
-.my-page-icon {
-	background: url(img/my_page.svg) no-repeat center;
-	width: 50px;
-	height: 50px;
+.left_label {
+	height: 28px;
+	color: #2a5885;
+    line-height: 27px;
+    font-size: 12.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+
+
+
+.my_page {
+	background: url(img/my_page.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.news_icon {
+	background: url(img/news.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.messages_icon {
+	background: url(img/messages.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.friends_icon {
+	background: url(img/friends.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.group_icon {
+	background: url(img/group.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.photos_icon {
+	background: url(img/photos.png) no-repeat center;
+	background-size: 20px;
+}
+
+.music_icon {
+	background: url(img/music.png) no-repeat center;
+	background-size: 20px;
+}
+
+.video_icon {
+	background: url(img/video.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.games_icon {
+	background: url(img/games.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.ruble_icon {
+	background: url(img/ruble.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.goods_icon {
+	background: url(img/goods.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.docs_icon {
+	background: url(img/docs.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.hr_fix {
+	height: 10px;
+	padding: 10px 0px;
+}
+
+
+
+
+.post-header {
+	width: 550px;
+	height: 65px;
+	padding: 15px 20px 0;
+}
+
+.post-image > img {
+	display: block;
+	float: left;
+	border-radius: 25px;
+}
+
+.blind-label {
+	height: 1px;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0;
+    outline: none;
+        position: absolute;
+    overflow: hidden;
+}
+
+.post_header_info {
+    margin-left: 65px;
+    padding-top: 8px;
+    width: 445px;
+    height: 41px;
+}
+
+.post_author {
+	position: relative;
+	font-size: 13px;
+    margin: 0;
+    font-weight: 400;
+	line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.explain {
+	padding-left: 1px;
+	color: #939393;
+}
+
+.wall_fixed_label {
+	display: none;
+}
+
+.post_date {
+	position: absolute;
+    font-size: 12.5px;
+    padding-top: 3px;
+}
+
+.post_link {
+	color: #939393;
+	cursor: pointer;
+}
+
+.ui_actions_menu_wrap {
+	cursor: pointer;
+}
+
+.ui_actions_menu_icons {
+	float: right;
+	width: 15px;
+	height: 15px;
+    background: url(img/arrow.png) no-repeat;
+    background-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.wall_text {
+	padding: 8px 20px 19px;
+}
+
+.wall_post_text {
+    line-height: 1.462;
+    padding-top: 3px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.wall_post_text ~ img {
+	width: 510px;
+	height: 335px;
+}
+
+.page_block {
+	display: inline-block;
+	vertical-align: top;
+	width: 210px;
+	padding: 15px 0px;
+}
+
+.right-box {
+	background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    width: 210px;
+}
+
+.right-box > li {
+	width: 250px;
+    height: 32px;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 6px 0px 7px 20px;
+    color: #2a5885;
+}
+
+.right-box > li:hover {
+	border-left: 2px solid #5181b8;
+	background-color: #f0f2f5;
+    padding: 6px 0px 7px 18px;
+	cursor: pointer;
+}
+
+
+
+
+.text-pop {
+	display: inline-block;
+}
+.fire_block {
+    display: inline-block;
+    width: 210px;
+    height: 41px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    margin: 15px 0 0;
+    padding: 7px 10px 7px 10px;
+}
+
+.fire_icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(img/fire.svg) no-repeat center;
+	background-size: 20px;
+}
+
+.toggle-bg{
+ 	background: black; /* Вам понадобится видеть область с тумблером, но не стесняйтесь изменить цвет */
+ 	display: inline-block; /* ...Чтобы можно было установить высоту и ширину */
+ 	float: right; /* ...Чтобы он не занимал всю ширину страницы */
+ 	margin-top: 12px;
+ 	height: 7px; /* Если хотите, можно это попозже изменить */
+ 	position: relative; /* Требуется, чтобы тумблер мог передвигаться */
+ 	width: 26px; /* Это тоже можно позже изменить */
+
+}
+ 
+.toggle-bg input{
+ 	height: 28px;
+ 	left: 0;
+ 	opacity: 0; /* Невидим! */
+ 	position: absolute;
+ 	width: 36px;
+ 	z-index: 2; /* Нам нужно, чтобы вход input находился сверху span.switch, которому мы назначим z-index в 1 */
+}
+ 
+.switch{
+ 	background: #ccc;
+ 	display: block;
+ 	float: left;
+ 	height: 14px;
+ 	left: -1px; /* Это – начальная точка. При добавлении border radius показывается немного фона, если использовать left: 0;, поэтому лучше всего применить -1px.*/
+ 	position: relative;
+ 	top: -4px; /* ...Чтобы отцентрировать его по вертикали */
+ 	width: 14px;
+ 	z-index: 1; /* Помните, он должен быть под невидимыми входами inputs */
+}
+ 
+.toggle-bg input:checked~.switch{ left: -1px; } /* Исходная позиция тумблера */
+ 
+.toggle-bg input~:checked~.switch{ left: 13px; } /* окончательная относительная позиция переключателя */
+ 
+.toggle-bg input:checked{ z-index: 0; }

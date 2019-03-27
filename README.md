@@ -9,4 +9,6 @@
 ##### Float. Псевдоклассы и составные селекторы - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework3(Float) #####
 ##### Свойства видимости. Именование классов. БЭМ - https://jsfiddle.net/Glebjs/y0ktnc6r/32/ #####
 ##### Изображения. Шрифты и иконки - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework4(Images) #####
-##### Flexbox - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework5(Flex) #####
+##### Flex - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework5(Flex) #####
+##### Адаптивная верстка - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework6(Adaptive) #####
+##### Анимация - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework7(Animation) #####

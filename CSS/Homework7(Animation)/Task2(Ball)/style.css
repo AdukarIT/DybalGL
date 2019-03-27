@@ -1,0 +1,18 @@
+.border-for-ball {
+	width: 500px;
+	height: 500px;
+	background-image: linear-gradient(#e66, #aac, #99e);
+	margin: auto;
+}
+
+.ball-icon {
+	width: 500px;
+	height: 500px;
+	background: url(ball.png) no-repeat left bottom;
+	background-size: 100px;
+	transition:  transform 1s ease;
+}
+
+.ball-icon:active {
+	transform: translate(400px);
+}
