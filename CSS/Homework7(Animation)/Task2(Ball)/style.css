@@ -6,13 +6,25 @@
 }
 
 .ball-icon {
-	width: 500px;
-	height: 500px;
-	background: url(ball.png) no-repeat left bottom;
-	background-size: 100px;
-	transition:  transform 1s ease;
+	width: 100px;
+	height: 100px;
+	transition: transform 1s ease;
 }
 
-.ball-icon:active {
-	transform: translate(400px);
+#ball {
+}
+
+#ball:checked label{
+	transform: scale(0.5);
+}
+
+@keyframes moveit {
+	0% {
+		left: 400px;
+	}
+	50% {
+		left: 100px;
+		top: 300px;
+		transform: perspective(500px) rotateX(360deg);
+	}
 }

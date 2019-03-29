@@ -1,0 +1,28 @@
+.fan {
+	width: 100px;
+	height: 100px;
+}
+
+.fan:hover {
+	animation: fan-move-forward 0.8s ease-out;
+	animation-iteration-count: 3;
+}
+
+.fan:not(:hover) {
+	animation: fan-move-backward 0.8s ease-out;
+	animation-iteration-count: 3;
+}
+
+@keyframes fan-move-forward {
+	to {
+		transform:  rotate(180deg);
+		animation-direction: right;
+	}
+}
+
+@keyframes fan-move-backward {
+	to {
+		transform:  rotate(180deg);
+		animation-direction: left;
+	}
+}
