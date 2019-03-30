@@ -8,26 +8,16 @@
 }
 
 .sprite:hover {
-	animation: spritemove 2s ease-in;
+	animation: spritemove 0.3s steps(6);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 @keyframes spritemove {
 	from {
 		background: url(subzero.jpg) 0px 0px;
 	}
-	15% {
-		background: url(subzero.jpg) -66px 0px;
-	}
-	35% {
-		background: url(subzero.jpg) -132px 0px;
-	}
-	55% {
-		background: url(subzero.jpg) -198px 0px;
-	}
-	80% {
-		background: url(subzero.jpg) -264px 0px;
-	}
 	to {
-		background: url(subzero.jpg) -330px 0px;
+		background: url(subzero.jpg) -396px 0px;
 	}
 }

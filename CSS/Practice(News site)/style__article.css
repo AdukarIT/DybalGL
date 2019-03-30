@@ -32,10 +32,11 @@ p {
 footer {
 	background-color: #333;
 	font-family: courier;
-	display: block;
 }
 
 ul {
+	display: flex;
+	justify-content: space-around;
 	list-style-type: none;
 }
 
@@ -55,16 +56,23 @@ ul {
 	background-color: darkorange;
 }
 
+.news {
+	padding: 10px 25px;
+}
+
 .content {
-	box-sizing: border-box;
 	width: 75%;
 }
 
 .othernews {
 	float: right;
-	box-sizing: border-box;
 	width: 25%;
 	text-align: left;
+}
+
+.link__other-news {
+	font-size: 25px;
+	margin-bottom: 25px;
 }
 
 .footer__title {
@@ -76,4 +84,9 @@ ul {
 
 .inline {
 	display: inline-block;
+}
+
+.footer-links {
+	display: inline-block;
+	justify-content: center;
 }
