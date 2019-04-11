@@ -1,0 +1,131 @@
+@media screen and (max-width: 1200px) {
+.middle {
+	@include middle-flex();
+	background-color: $BG;
+	height: 800px;
+	background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+    border-radius: 2em;
+    border: 1px solid #e0e0e0;
+    box-shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+	.DClogo img, .first-heading {width: 21.5em;}
+	.second-heading {width: 320px;}
+	.text {width: 400px;}
+	.button {
+		@include button();
+    	&:hover {
+    		opacity: 0.7;
+    	}
+	}
+	.social-networks a {
+		display: inline-block;
+		color: #000;
+		letter-spacing: 35px;
+		opacity: 1;
+		cursor: pointer;
+		transition: all ease-out 0.5s;
+	}
+	.social-networks > a:hover {
+	    font-size: .6em;
+	    text-decoration: none;
+	    opacity: 0.7;
+	    transform: scale(1.35);
+	}
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+header {
+	display: flex;
+	flex-direction: row;
+	background-color: $BG;
+	background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+    border-radius: 2em;
+    border: 1px solid #e0e0e0;
+    box-shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+}
+
+.left-block {
+	animation-name: fadeleft;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.right-block {
+	animation-name: faderight;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes fadeleft {
+	0% {
+		opacity: 0;
+    	transform: translate3d(-100%, 0, 0);
+	}
+	100% {
+		opacity: 1;
+    	transform: none;
+	}
+}
+
+@keyframes faderight {
+	0% {
+		opacity: 0;
+    	transform: translate3d(100%, 0, 0);
+	}
+	100% {
+		opacity: 1;
+    	transform: none;
+	}
+}
+
+.middle {
+	@include middle-flex();
+	.DClogo img, .first-heading {width: 21.5em;}
+	.second-heading {width: 320px;}
+	.text {width: 400px;}
+	.button {
+		@include button();
+    	&:hover {
+    		opacity: 0.7;
+    	}
+	}
+	.social-networks a {
+		display: inline-block;
+		color: #000;
+		letter-spacing: 35px;
+		opacity: 1;
+		cursor: pointer;
+		transition: all ease-out 0.5s;
+	}
+	.social-networks > a:hover {
+	    font-size: .6em;
+	    text-decoration: none;
+	    opacity: 0.7;
+	    transform: scale(1.35);
+	}
+}
+}
+
+@media screen and (max-width: 1000px) {
+	.button {
+		@include button();
+    	&:hover {
+    		opacity: 0.7;
+    	}
+	}
+	.social-networks a {
+		display: inline-block;
+		color: #000;
+		letter-spacing: 35px;
+		opacity: 1;
+		cursor: pointer;
+		transition: all ease-out 0.5s;
+	}
+	.social-networks > a:hover {
+	    font-size: .6em;
+	    text-decoration: none;
+	    opacity: 0.7;
+	    transform: scale(1.35);
+	}
+}

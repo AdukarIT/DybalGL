@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+  .mobile {
+    padding-bottom: 50px;
+      .left-element {
+        @include left-box();
+        .left-description {
+         width: 200px;
+        }
+      }
+      .right-element {
+        @include right-box();
+        .right-description {
+          width: 230px;
+        }
+      }
+    .down {
+      margin-top: 35px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      .down_button {
+        width: 260px;
+        height: 80px;
+        background: #000;
+        border-radius: .3em;
+        border: 0;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+.left-block, .right-block {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+  width: 290px;
+  color: $Text;
+  .left-element {
+    border-radius: 0 120px 120px 0;
+    width: 280px;
+    height: 250px;
+    margin-bottom: 2em;
+    background: #e9eae9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 22px;
+   :hover [class^="icon"] {
+      color: #000;
+      transition: ease-out 1s;
+    }
+    p {
+      width: 190px;
+    }
+  }
+  .right-element {
+    width: 280px;
+    height: 250px;
+    background: #f0f1f2;
+    border-radius: 120px 0 0 120px;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #646464;
+    line-height: 22px;
+    :hover [class^="icon"] {
+      color: #000;
+      transition: ease-out 1s;
+    }
+    p {
+      width: 190px;
+    }
+  }
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .mobile {
+    padding-bottom: 50px;
+    .left-element > div {
+     @include mobile();
+      [class^="icon"] {
+        position: absolute;
+        left: -160px;
+      }
+    }
+    .right-element > div {
+      @include mobile(); 
+      [class^="icon"] {
+        position: absolute;
+        right: -160px;
+      }
+    }
+    }
+  }

@@ -1,0 +1,54 @@
+
+$Font: 'Verdana', sans-serif;
+$Text: #646464;
+$BG: #f0f1f2;
+
+h1 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 5.4em;
+    text-transform: uppercase;
+    cursor: default;
+    letter-spacing: 15px;
+    line-height: 15px;
+    }
+h2 {
+    font-size: 30px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 80px;
+    cursor: default;
+}
+
+h3 {
+    padding: 10px;
+    color: #383838;
+    font-size: 17px;
+    font-family: $Font;
+    font-weight: lighter;
+}
+
+p {
+    color: $Text;
+    font-family: $Font;
+    font-size: 1em;
+}
+
+.left-description p {
+    font-size: 13px;
+}
+
+.right-description p {
+     font-size: 13px;
+}
+.right-description a {
+    color: #000;
+    text-decoration: underline;    
+}
+
+.down_button a {
+    color: $BG;
+    font-family: $Font;
+    font-size: 20px;
+    line-height: 80px;
+    cursor: pointer;
+}

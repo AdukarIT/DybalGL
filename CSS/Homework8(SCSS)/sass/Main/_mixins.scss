@@ -1,0 +1,65 @@
+@mixin left-box() {
+    width: 60%;
+    height: 180px;
+    margin-top: 35px;
+    background: #e9eae9;
+    border-radius: 0 120px 120px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: #646464;
+    line-height: 22px;
+    padding: 25px;
+}
+
+@mixin right-box() {
+    width: 60%;
+    height: 230px;
+    margin-left: 40%;
+    margin-top: 35px;
+    background: #e9eae9;
+    border-radius: 120px 0 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    color: #646464;
+    line-height: 22px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+@mixin middle-flex() {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+@mixin button() {
+    width: 280px;
+    height: 50px;
+    line-height: 50px;
+    background: #000;
+    border-radius: .3em;
+    border: 0;
+    color: $BG;
+    font-family: $Font;
+    font-size: 20px;
+    transition: all linear 1s;
+}
+
+@mixin mobile() {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}

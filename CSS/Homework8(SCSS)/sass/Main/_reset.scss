@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (max-width: 1200px) {
+body {
+	background-color: #fff;
+	max-width: 1200px;
+	height: auto;
+}
+.left-block, .right-block {
+	display: none;
+}
+}
+
+@media screen and (min-width: 1200px) {
+body {
+	padding: 40px;
+	max-width: 100%;
+}
+.left-block, .right-block {
+	display: flex;
+}
+.mobile {
+	display: none;
+}
+}
+
+@media screen and (max-width: 1000px) {
+body {
+	background-color: #fff;
+	max-width: 1000px;
+	height: auto;
+}
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('icons/files/fontello.eot?82041995');
+  src: url('icons/files/fontello.eot?82041995#iefix'),
+       url('icons/files/fontello.woff2?82041995'),
+       url('icons/files/fontello.woff?82041995'),
+       url('icons/files/fontello.ttf?82041995'),
+       url('icons/files/fontello.svg?82041995#fontello');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.icon-twitter:before { content: '\e800'; font-size: 50px;} 
+.icon-bullhorn:before { content: '\e801'; font-size: 32px;} /*новости*/
+.icon-location:before { content: '\e802'; font-size: 32px; }
+.icon-users:before { content: '\e803'; font-size: 32px; }
+.icon-help-circled:before { content: '\e804'; font-size: 50px; } /*вопросик*/
+.icon-vk:before { content: '\e809'; font-size: 50px;}
+.icon-angle-right:before { content: '\f105'; }
+.icon-thumbs-up-alt:before { content: '\f164'; font-size: 32px; } /*помощь*/
+.icon-instagram:before { content: '\f16d'; font-size: 50px;}
+.icon-handshake-o:before { content: '\f2b5'; font-size: 32px; } /*рекомендация*/
+.icon-telegram:before { content: '\f2c6'; font-size: 50px;}
+.icon-facebook:before { content: '\f30c'; font-size: 50px;}
+.icon-twitter-rect:before { content: '\f314'; }
+
+@media screen and (max-width: 1000px) {
+.icon-bullhorn:before { font-size: 90px;}
+.icon-handshake-o:before { font-size: 90px;}
+.icon-location:before { font-size: 90px;}
+.icon-users:before { font-size: 90px;}
+.right-description:before { font-size: 90px;}
+.icon-handshake-o:before { font-size: 90px;}
+.icon-help-circled:before { font-size: 90px;}
+}
