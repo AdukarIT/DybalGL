@@ -12,4 +12,5 @@
 ##### Flex - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework5(Flex) #####
 ##### Адаптивная верстка - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework6(Adaptive) #####
 ##### Анимация - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework7(Animation) #####
-##### Практика(news site) - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Practice(News) #####
+##### Практика(Новостной сайт) - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Practice(News) #####
+##### SCSS(DesignClub) - https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework8(SCSS) #####
