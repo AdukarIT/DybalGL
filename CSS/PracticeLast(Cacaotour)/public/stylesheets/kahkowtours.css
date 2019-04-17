@@ -1,0 +1,563 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.75em;
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  padding: 10px 18px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border: 1px solid #f8a027;
+  border-radius: 5px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.5em;
+  font-weight: 600;
+  color: #fff;
+  background: #f8a027;
+}
+
+.bold-word {
+  font-weight: bold;
+}
+
+.header {
+  width: 1349px;
+  height: 492.8px;
+  background: url(../images/kahkowtours/header.jpg) no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 0px;
+  margin-bottom: 30px;
+}
+.header .top-nav {
+  position: absolute;
+  height: 165.61px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
+}
+.header .utilities {
+  height: 38px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+.header .utilities .lang {
+  float: right;
+}
+.header .utilities .lang-switcher {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.header .utilities .lang-switcher > li {
+  text-transform: uppercase;
+}
+.header .utilities .lang-switcher .language-chooser {
+  display: none;
+  min-width: 100px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  z-index: 3;
+  background: #fff;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.header .utilities .lang-switcher .language-chooser > li > a {
+  padding: 5px 10px;
+  color: #4C4C4C;
+  text-transform: none;
+  border-radius: 0;
+}
+.header .utilities .lang-switcher:hover .language-chooser {
+  display: block;
+}
+.header .utilities a {
+  display: block;
+  color: #fff;
+}
+.header .utilities i {
+  margin-right: 6px;
+  font-size: 19px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.header .brand {
+  float: left;
+  width: 140px;
+  height: 72.61px;
+  margin-top: 25px;
+  margin-right: 1.69492%;
+}
+@media screen and (min-width: 1140px) {
+  .header .brand {
+    width: 90px;
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .header .brand {
+    width: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header .brand {
+    width: 100px;
+    float: none;
+    font-size: 26px;
+    font-size: 1.625rem;
+    width: -1.69492%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+.header .main-nav-contact {
+  width: 1140px;
+  height: 41px;
+}
+.header .contact {
+  padding-top: 10px;
+  text-align: right;
+}
+@media screen and (min-width: 768px) {
+  .header .contact {
+    display: block;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .header .contact span {
+    display: inline-block;
+  }
+}
+.header .contact i {
+  margin-right: 6px;
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 0;
+  vertical-align: middle;
+}
+.header .contact p {
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-left: 15px;
+  display: inline-block;
+}
+.header .contact a {
+  display: inline-block;
+  color: #fff;
+}
+.header .contact .circle-icon i {
+  width: 28px;
+  height: 28px;
+  padding: 14px 4px 2px 4px;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 0;
+  vertical-align: middle;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.header .main-nav {
+  margin-top: 20px;
+  float: right;
+}
+.header .main-nav .tours-active {
+  font-size: 14px;
+  vertical-align: bottom;
+}
+.header .main-nav > li {
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+.header .main-nav > li > a {
+  padding: 12px 12px;
+  color: #fff;
+}
+.header .main-nav > li > a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+}
+.header .main-nav .tours {
+  display: none;
+  position: absolute;
+  margin-top: 5px;
+  z-index: 3;
+  background: #fff;
+  border-radius: 5px;
+}
+.header .main-nav .tours > li > a {
+  padding: 15px 10px;
+  color: #4C4C4C;
+}
+.header h2 {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 90px;
+  font-size: 2.375rem;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  clear: both;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.primary {
+  overflow: visible;
+}
+.primary .tours-qoute {
+  width: 85%;
+  margin: 0 auto 80px auto;
+}
+.primary .tours-qoute .tours-quote-inner {
+  position: relative;
+  overflow: visible;
+}
+.primary .tours-qoute .tours-quote-inner .open-qoute {
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: -50px;
+}
+.primary .tours-qoute p {
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 41px;
+}
+.primary .teasers {
+  padding-top: 20px;
+  padding: 20px 0 0 0;
+  overflow: hidden;
+}
+.primary .teasers h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 41px;
+  margin-bottom: 50px;
+}
+.primary .teasers .teaser {
+  display: block;
+  float: right;
+  position: relative;
+  width: 49%;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.primary .teasers .teaser figure {
+  margin: 0;
+}
+.primary .teasers .teaser figure img {
+  width: 110%;
+  max-width: 110%;
+  height: auto;
+}
+.primary .teasers .teaser .info {
+  width: 195.52px;
+  height: 400px;
+  left: 65%;
+  padding: 40px 15px 15px 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(28, 15, 15, 0.3);
+}
+.primary .teasers .teaser .info .brand {
+  width: 60px;
+  margin: 0 auto 10px auto;
+  display: block;
+}
+.primary .teasers .teaser .info p {
+  font-size: 0.75rem;
+  line-height: 21px;
+  color: #fff;
+  margin-bottom: 2em;
+}
+.primary .teasers .teaser .btn {
+  display: block;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+.primary .teasers .teaser:nth-child(2n) {
+  float: left;
+}
+.primary .why-visit {
+  display: inline-block;
+  padding-top: 40px;
+}
+.primary .why-visit .box {
+  width: 28%;
+  margin-right: 55px;
+  padding-bottom: 0;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: none;
+}
+.primary .why-visit .box p {
+  text-align: right;
+  font-size: 0.875rem;
+}
+.primary .why-visit .box p a {
+  color: black;
+  text-decoration: underline;
+}
+.primary .why-visit h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.primary .why-visit h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.quote-nav {
+  display: grid;
+  width: 1140px;
+  height: 210px;
+  border: 2 px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 90px auto 90px;
+}
+.quote-nav .grid-item__second {
+  font-size: 1.5rem;
+  color: gray;
+}
+.quote-nav .grid-item__third {
+  display: grid;
+  justify-items: end;
+  align-items: end;
+}
+
+.normal-word {
+  font-weight: normal;
+}
+
+.wrapper.margin {
+  padding: 50px 0;
+}
+.wrapper.margin .tours {
+  font-size: 32px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 220px 190px;
+  grid-template-columns: 285px 760px;
+}
+
+.container2 {
+  display: grid;
+  width: 912px;
+  margin-top: 40px;
+  margin-left: auto;
+  grid-template-rows: 270px;
+  grid-template-columns: 213px 223px 213px 223px;
+}
+.container2 .one {
+  text-align: right;
+  width: 100%;
+}
+.container2 .one img {
+  width: 213px;
+  height: 241.56px;
+}
+.container2 .one p {
+  float: right;
+}
+.container2 .two {
+  padding-left: 20px;
+  padding-top: 2px;
+}
+
+.here-we-are {
+  margin: 10px 0px 20px;
+  font-size: 41px;
+  text-align: center;
+}
+
+.tours-info {
+  display: grid;
+  justify-content: space-between;
+  grid-template-rows: 420px 200px 50px;
+  grid-template-columns: 370px 370px 370px;
+}
+.tours-info .teaser {
+  display: grid;
+  position: relative;
+  justify-content: space-between;
+}
+.tours-info .teaser p {
+  width: 370px;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 10px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+.tours-info .teaser span {
+  margin-top: 40px;
+}
+.tours-info .teaser a {
+  margin-top: 5px;
+  font-weight: 500;
+  color: black;
+  text-decoration: underline;
+}
+.tours-info .teaser .btn-area {
+  margin: 10px 20px 10px 50px;
+  align-items: center;
+}
+.tours-info .teaser .book {
+  background: #000;
+  color: #FFF;
+  letter-spacing: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  padding: 10px 90px;
+}
+
+.what-we-have__header {
+  margin: 50px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.map {
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+footer {
+  padding-top: 40px;
+  text-align: center;
+}
+footer h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-right: 15px;
+}
+footer .footer-wrapper {
+  display: table;
+  margin: 0 auto;
+  width: 50%;
+}
+footer .footer-wrapper .nav {
+  display: table-row;
+  margin-top: 40px;
+}
+footer .footer-wrapper .nav .menu {
+  display: table-cell;
+  width: inherit;
+  margin-right: 25px;
+}
+footer .footer-wrapper .nav .social-strip {
+  padding: 33px 0;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+}
+footer .footer-wrapper .nav .social-strip li {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  display: inline-block;
+}
+footer .footer-wrapper .nav .social-strip i {
+  vertical-align: middle;
+  font-size: 31px;
+  font-size: 1.9375rem;
+  color: black;
+}
+footer .footer-wrapper .nav .contact-strip {
+  display: block;
+  padding: 19.5px 0;
+}
+footer .footer-wrapper .nav .contact-strip i {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+  padding: 13px 4px 2px 4px;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 0;
+  vertical-align: middle;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+footer .footer-wrapper .nav .contact-strip ul {
+  width: 225px;
+  height: 72.72px;
+}
+footer .footer-wrapper .nav .contact-strip a {
+  color: black;
+}
+footer .copyright {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+footer .copyright a {
+  color: black;
+  font-weight: 600;
+}
+footer .copyright .rights {
+  font-size: 0.625rem;
+}
+footer .copyright .rights i {
+  color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  .teasers .teaser .info {
+    left: 55%;
+    padding: 50px 15px 15px 15px;
+  }
+}
+
+/*# sourceMappingURL=kahkowtours.css.map */
