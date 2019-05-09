@@ -1,9 +1,11 @@
 # DybalGL #
+## HTML ##
 ##### [Введение в Web-разработку](https://github.com/AdukarIT/DybalGL/tree/master/Homework1) #####
 ##### [Основы HTML](https://github.com/AdukarIT/DybalGL/tree/master/Homework2) #####
 ##### [Формы. Ссылочные протоколы](https://github.com/AdukarIT/DybalGL/tree/master/Homework3) #####
 ##### [Продвинутый HTML](https://github.com/AdukarIT/DybalGL/tree/master/HTML/Homework4) #####
 
+## CSS ##
 ##### [Основы CSS](https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework1(Abstract)) #####
 ##### [CSS. Позиционирование](https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework2(Position)) #####
 ##### [Float. Псевдоклассы и составные селекторы](https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework3(Float)) #####
@@ -15,3 +17,8 @@
 ##### [Практика(Новостной сайт](https://github.com/AdukarIT/DybalGL/tree/master/CSS/Practice(News)) #####
 ##### [SCSS(DesignClub)](https://github.com/AdukarIT/DybalGL/tree/master/CSS/Homework8(SCSS)) #####
 ##### [Final Practice(CacaoTour)](https://github.com/AdukarIT/DybalGL/tree/master/CSS/PracticeLast(Cacaotour)) #####
+
+## JavaScript ##
+##### [Циклы](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/1(Cycles)) #####
+##### [Функции](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/2(Functions)) #####
+##### [Поиск ошибок и отладка кода](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/3(Debugging)) #####
