@@ -19,6 +19,6 @@
 ##### [Final Practice(CacaoTour)](https://github.com/AdukarIT/DybalGL/tree/master/CSS/PracticeLast(Cacaotour)) #####
 
 ## JavaScript ##
-##### [Циклы](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/1(Cycles)) #####
-##### [Функции](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/2(Functions)) #####
-##### [Поиск ошибок и отладка кода](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/3(Debugging)) #####
+##### [Циклы](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/1Cycles) #####
+##### [Функции](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/2Functions) #####
+##### [Поиск ошибок и отладка кода](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/3Debugging) #####

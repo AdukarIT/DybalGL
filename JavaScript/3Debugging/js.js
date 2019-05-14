@@ -147,3 +147,105 @@ function task9 () {
 	}
 }
 console.log(task9());
+
+
+
+
+console.log("Задание 10: Создайте функцию, которая для чисел от 2 до 20 выводит в консоль все их делители.");
+function task10 () {
+	for (var i = 2; i <= 20; i++) {
+		for (var j = 2; j <= 9; j++) {
+			if (i % j == 0) console.log("Число " + j + " является делителем числа " + i);
+		}
+	}
+}
+console.log(task10());
+
+
+
+
+console.log("Задание 11: Решите задачу 10 в общем виде: вместо 2 и 20 – аргументы x и y.");
+function task11 (x,y) {
+	for (var i = x; i <= y; i++) {
+		for (var j = 2; j <= 9; j++) {
+			if (i % j == 0) console.log("Число " + j + " является делителем числа " + i);
+		}
+	}
+}
+console.log(task11(7,15));
+
+
+
+
+console.log("Задание 12: Создайте функцию с параметрами size (число) и unit (строка). В unit передаются единицы измерения информации («Кб», «Мб», «Гб»), в size – количество таких единиц. Функция возвращает количество байт в size.");
+function task12 (size, unit) {
+	switch (unit) {
+		case "Кб":
+		case "кб":
+		case "кБ":
+		case "КБ":
+			return "Количество байт в " + size + " Кб" + " = " + size * 1024;
+
+		case "Мб":
+		case "мб":
+		case "мБ":
+		case "МБ":
+			return "Количество байт в " + size + " Мб" + " = " + size * 1048576;
+
+		case "Гб":
+		case "гб":
+		case "гБ":
+		case "ГБ":
+			return "Количество байт в " + size + " Гб" + " = " + size * 1073741824;
+	}
+}
+console.log(task12(250, "Мб"));
+
+
+
+
+console.log("Задание 13: Создайте функцию, которая ищет наибольший общий делитель двух чисел.");
+function task13 (a,b) {
+	while ( a && b) {
+		if (a == 0 || b == 0) return a + b;
+		a > b ? a %= b : b %= a;
+	}
+	return a + b;
+}
+console.log(task13(10,15));
+
+
+
+
+console.log("Задание 14: Решите задачу 13 через рекурсию.");
+function task14 (a,b) {
+	if (a == 0 || b == 0) return a + b;
+	return task14(b, a % b);
+}
+console.log(task14(15,10));
+
+
+
+
+console.log("Задание 15: Создайте функцию words(),  которая в зависимости от переданного в нее целого числа n, будет выводить слово «карандаш» в правильной форме («12 карандашей», но «22 карандаша»).");
+function words(n) {
+	if (n >= 5 && n <= 20) console.log(n + " карандашей.");
+	else if (n % 10 == 1) console.log(n + " карандаш.");
+	else if (n % 10 >= 5)  console.log(n + " карандашей.");
+	else console.log(n + " карандаша.");
+}
+console.log(words(94));
+
+
+
+
+console.log("Задание 16: Создайте функцию, которая проверяет, можно ли представить число в виде суммы квадратов двух целых однозначных чисел.");
+function task16(a) {
+	for (var i = 1; i < a; i++) {
+  		for (var j = 1; j < a; j++){
+    		if (a == Math.pow(i, 2) + Math.pow(j, 2))
+      		console.log("Число можно представить в виде суммы квадратов двух целых однозначных чисел " + i, j);
+  		}
+	}
+}
+console.log(task16(50));
