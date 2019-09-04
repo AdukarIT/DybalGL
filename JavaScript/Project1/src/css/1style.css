@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
+
+.navbar li {
+	font-family: 'Pacifico', cursive;
+	font-size: 18px;
+}
+
+body {
+	font-family: 'Literata', serif;
+	font-size: 18px;
+}
+
+#actorForm {
+	position: absolute;
+	display: none;
+	width: 550px;
+	left:0;
+	right: 0;
+	border: 2px dotted blue;
+	margin-left: auto;
+	margin-right: auto;
+	background: no-repeat url("https://d1xfgk3mh635yx.cloudfront.net/sites/default/files/styles/original/public/image/featured/1048601-academy-announces-shortlists-nine-categories-91st-oscars.jpg?itok=G3Lo-wlJ");
+	z-index: 1;
+}

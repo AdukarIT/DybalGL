@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+/*	background-image: url(https://gamehag.com/img/uploaded/UZp8KW5yjMLioAvDJ2jVofQpkK5P1K.jpg);*/
+
+}
+
+.searchData {
+	text-align: center;
+}
+
+#searchInput {
+	padding-left: 20px;
+	width: 750px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 40px;
+	outline:none;
+	margin: 20px 0px;
+	border: 1px solid red;
+}
+
+#searchInput:focus {
+	color: white;
+	background-color: coral;
+}
+
+#submit {
+	display: inline-block;
+	position: relative;
+	background-image: url('search.svg');
+	width: 45px;
+	height: 45px;
+	background-repeat: no-repeat;
+	top: 15px;
+	cursor: pointer;
+}
+
+.gamesContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gameData {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 300px;
+	margin: 0px 50px;
+	margin-bottom: 20px;
+	flex-grow: 0;
+	box-sizing: content-box;
+	
+}
+
+.nameOfTheGame {
+	display: inline-block;
+	font-family: 'Grenze', serif;
+	text-align: center;
+	font-weight: bold;
+	white-space: nowrap;
+	font-size: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.gameImage {
+	display: block;
+	width: 300px;
+	height: 175px;
+	border-radius: 10px;
+	margin: 10px 0px;
+}
+
+.gameShortInfo {
+	display: block;
+	font-size: 16px;
+}
+
+/*Окно с полной информацией о игре*/
+.fullInfoAboutTheGame {
+	display: none;
+	width: 750px;
+    height: 320px;
+    position: absolute;
+    top: 435px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-image: url(http://www.roadracingcore.com/it/wp-content/uploads/2013/02/sfondo-grigio.jpg);
+    border: 1px solid black;
+    color: white;
+}
+
+.fullNameOfTheGame {
+	display: block;
+	font-family: 'Grenze', serif;
+	text-align: center;
+	font-size: 32px;
+	margin: 10px 0px;
+}
+
+.gameFullImage > img {
+	float: left;
+	margin: 0px 15px 15px 15px;
+	width: 360px;
+	height: 240px;
+}
+
+.gameFullInfo > div {
+	margin-bottom: 5px;
+}
+
+.stepBack {
+	display: none;
+	float: left;
+	position: absolute;
+	margin: 20px;
+	transform: rotate(180deg);
+	width: 50px;
+	height: 50px;
+	background-image: url('next.svg');
+	cursor: pointer;
+}
+
+.stepForward {
+	display: none;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 20px;
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	background-image: url('next.svg');
+	cursor: pointer;
+}
+
+#closeFullInfoWindow {
+	width: 75px;
+	height: 35px;
+	outline: none;
+	border: 0px;
+	background-color: coral;
+}
