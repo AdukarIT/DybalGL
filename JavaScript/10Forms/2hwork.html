@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forms HW</title>
+</head>
+<body>
+
+	<form>Имя:
+		<input type="text" id="name">
+		<br>Кол-во пончиков:
+		<input type="text" id="donuts">
+		<br>Минут:
+		<input type="text" id="minutes">
+		<br>Подитог: <input type="text" id="poditog">
+		<br>Налог: <input type="text" id="tax">
+		<br>Итог:<input type="text" id="itog">
+		<br><input type="submit" value="заказать" id="checkValidity">
+	</form>
+
+
+	<form action="mailto:address@domen.domen">
+		<p>Send email to: address@domen.domen </p>
+		<input type="text" name="msg">
+		<br>
+		<input type="submit" name="send" value="Send!">
+		<input type="button" name="clear" value="Clear!">
+	</form>
+
+	<p>Проверка валидности полей</p>
+	<form name="checkValidityForm">
+		<p>Text here</p>
+		<input type="text" name="textCheck"  required>
+
+		<p>Mail</p>
+		<input type="email" name="mailCheck"  required>
+
+		<p>Password</p>
+		<input type="password" name="passCheck"  required>
+		<br>
+		<input type="submit" name="submit">
+	</form>
+	<script type="text/javascript" src="2js.js"></script>
+
+</body>
+</html>

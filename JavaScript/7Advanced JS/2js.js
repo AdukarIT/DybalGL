@@ -9043,10 +9043,11 @@ console.log("Людей, проживающих на широте от 25 до 3
 
 
 console.log("Задание 5: Создайте массив только из тех городов, которые начинаются на букву D, при этом отсортируйте элементы этого массива по названию города.");
-var arrayOfCitiesWithD = [];
-data.forEach(function(el) {
-	if(el.city.startsWith('D')) arrayOfCitiesWithD.push(el);
+var arrayOfCitiesWithD = data.filter(function(el) {
+	if(el.city[0] == "D")
+        return true;
 });
+
 arrayOfCitiesWithD.sort(function(a,b) {
 	if(a.city > b.city) return 1;
 	else if (a.city < b.city) return -1;
@@ -9055,4 +9056,20 @@ arrayOfCitiesWithD.sort(function(a,b) {
 console.log(arrayOfCitiesWithD);
 
 
-console.log("Задание 6: Преобразуйте представленный массив "Города" в объект "Штаты": 1) для каждого штата – отдельное свойство объекта (ключ = название штата); 2)значение  каждого свойства – массив городов; 3) каждый элемент массива – название города, население и место в общем рейтинге (rank).");
+console.log("Задание 6: Преобразуйте представленный массив 'Города' в объект 'Штаты': 1) для каждого штата – отдельное свойство объекта (ключ = название штата); 2)значение  каждого свойства – массив городов; 3) каждый элемент массива – название города, население и место в общем рейтинге (rank).");
+var objOfStates = {};
+for(let i = 0; i<data.length; i++){
+	objOfStates[data[i].state] = [];
+}
+
+for (let key in objOfStates) {
+	for (let j = 0; j < data.length; j++) {
+		if (key == data[j].state) {
+	    	objOfStates[data[j].state].push({
+	    	city: data[j].city,
+	    	population: data[j].population,
+	    	rank: data[j].rank});
+ 		}
+	}
+}
+console.log(objOfStates);
