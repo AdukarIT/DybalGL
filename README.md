@@ -20,7 +20,7 @@
 
 ## JavaScript ##
 ### [Проект1(Работа с LocalStorage)](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/Project1) ###
-### [Проект2(Работа с API](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/Project2) ###
+### [Проект2(Работа с API)](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/Project2) ###
 ##### [Циклы](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/01Cycles) #####
 ##### [Функции](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/02Functions) #####
 ##### [Поиск ошибок и отладка кода](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/03Debugging) #####
