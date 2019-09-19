@@ -1,0 +1,36 @@
+table {
+	width: 100%;
+}
+
+.tableHeader {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+table tr td {
+	border: 1px dashed green;
+	padding: 5px;
+}
+
+.dialog {
+	border: 5px dashed red;
+}
+
+.dialog form label,input {
+	display: block;
+}
+
+.navButtons {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.inline {
+	display: flex;
+}
+
+.error {
+	display: block;
+	color: #c33;
+}

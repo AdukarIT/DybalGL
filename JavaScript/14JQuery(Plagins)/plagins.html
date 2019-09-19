@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JQ(Plagins)</title>
+	<link rel="stylesheet" type="text/css" href="plagins.css">
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<link href="node_modules/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+</head>
+<body>
+
+	<div id="dialog">
+		<form name="appealForm" id="appealForm">
+			<label for="name">Имя клиента</label>
+			<input type="text" name="name" id="name">
+
+			<label for="phone">Телефон</label>
+			<input type="text" name="phone" id="phone">
+
+			<label for="date">Дата обращения</label>
+			<input type="text" name="date" id="date">
+
+			<label for="typeOfAppeal">Тип обращения: вопрос, жалоба, благодарность</label>
+
+			<div class="inline">
+				<input type="radio" name="typeOfAppeal" id="typeQ" value="Вопрос">
+				<label for="typeQ">Вопрос</label>
+			</div>
+
+			<div class="inline">
+				<input type="radio" name="typeOfAppeal" id="typeС" value="Жалоба">
+				<label for="typeC">Жалоба</label>
+			</div>
+
+			<div class="inline">
+				<input type="radio" name="typeOfAppeal" id="typeT" value="Благодарность">
+				<label for="typeT">Благодарность</label>
+			</div>
+
+			<div class="navButtons">
+				<input type="submit" name="addNewAppeal" id="addNewAppeal" value="Добавить">
+				<input type="button" name="closeDialog" id="closeDialog" value="Отмена">
+			</div>
+		</form>
+	</div>
+
+	<table>
+		<tr id="addNewAppealFromForm">
+			<td>
+				<p class="tableHeader">Имя клиента</p>
+			</td>
+			<td>
+				<p class="tableHeader">Телефон</p>
+			</td>
+			<td>
+				<p class="tableHeader">Дата обращения</p>
+			</td>
+			<td>
+				<p class="tableHeader">Тип обращения: вопрос, жалоба, благодарность.</p>
+			</td>
+		</tr>
+			
+	</table>
+
+	<input type="button" name="appeal" id="newAppeal" value="Новое обращение">
+
+	<script src="node_modules/jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+	<script src="node_modules/jquery-ui-1.12.1/jquery-ui.js"></script>
+	<script src="node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="plagins.js"></script>
+</body>
+</html>
