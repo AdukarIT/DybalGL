@@ -34,3 +34,8 @@ table tr td {
 	display: block;
 	color: #c33;
 }
+
+.ui-selected {
+	background-color: red;
+	opacity: 0.5;
+}

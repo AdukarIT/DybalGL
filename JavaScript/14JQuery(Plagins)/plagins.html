@@ -45,28 +45,38 @@
 	</div>
 
 	<table>
-		<tr id="addNewAppealFromForm">
-			<td>
-				<p class="tableHeader">Имя клиента</p>
-			</td>
-			<td>
-				<p class="tableHeader">Телефон</p>
-			</td>
-			<td>
-				<p class="tableHeader">Дата обращения</p>
-			</td>
-			<td>
-				<p class="tableHeader">Тип обращения: вопрос, жалоба, благодарность.</p>
-			</td>
-		</tr>
-			
+		<tbody class="selectable">
+			<tr id="addNewAppealFromForm">
+				<td>
+					<p class="tableHeader">Имя клиента</p>
+				</td>
+				<td>
+					<p class="tableHeader">Телефон</p>
+				</td>
+				<td>
+					<p class="tableHeader">Дата обращения</p>
+				</td>
+				<td>
+					<p class="tableHeader">Тип обращения: вопрос, жалоба, благодарность.</p>
+				</td>
+			</tr>
+		</tbody>
 	</table>
 
-	<input type="button" name="appeal" id="newAppeal" value="Новое обращение">
+	<div id="deleteDialog">
+		<div class="navButtons">
+			<input type="submit" name="deleteAppeal" id="deleteThatAppeal" value="ОК">
+			<input type="button" name="closeDialog" id="closeThatDialog" value="Отмена">
+		</div>
+	</div>
+
+	<input type="button" name="appeal" id="newAppeal" value="Новое обращение" style="float: left;">
+	<input type="button" name="deleteAppeal" id="deleteAppeal" value="Удалить" style="float: right;">
 
 	<script src="node_modules/jquery-ui-1.12.1/external/jquery/jquery.js"></script>
 	<script src="node_modules/jquery-ui-1.12.1/jquery-ui.js"></script>
 	<script src="node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.selection/1.0.1/jquery.selection.min.js"></script>
 	<script type="text/javascript" src="plagins.js"></script>
 </body>
 </html>

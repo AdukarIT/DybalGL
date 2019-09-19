@@ -19,6 +19,19 @@
 ##### [Final Practice(CacaoTour)](https://github.com/AdukarIT/DybalGL/tree/master/CSS/PracticeLast(Cacaotour)) #####
 
 ## JavaScript ##
-##### [Циклы](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/1Cycles) #####
-##### [Функции](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/2Functions) #####
-##### [Поиск ошибок и отладка кода](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/3Debugging) #####
+### [Проект1(Работа с LocalStorage)](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/Project1) ###
+### [Проект2(Работа с API](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/Project2) ###
+##### [Циклы](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/01Cycles) #####
+##### [Функции](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/02Functions) #####
+##### [Поиск ошибок и отладка кода](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/03Debugging) #####
+##### [Массивы](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/04Arrays) #####
+##### [Объекты](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/05Objects) #####
+##### [Встроенные возможности](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/06Built-in%20features) #####
+##### [Продвинутый JavaScript](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/07Advanced%20JS) #####
+##### [ДОМ](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/08DOM) #####
+##### [События](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/09Events) #####
+##### [Формы](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/10Forms) #####
+##### [ООП](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/11OOP) #####
+##### [Jquery](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/12Jquery) #####
+##### [jQuery. AJAX и анимации](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/13JQuery(AJAX%2C%20animation)) #####
+##### [jQuery. Плагины](https://github.com/AdukarIT/DybalGL/tree/master/JavaScript/14JQuery(Plagins)) #####
